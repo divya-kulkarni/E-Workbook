@@ -3,7 +3,7 @@
         <style>
             .vertical-menu 
             {
-                width: 125%;
+                width: 120%;
                 height: 100%;
                 background-color: #eee;
                 /* Set a width if you like */
@@ -29,11 +29,39 @@
               color: white;
             }
             
-            h2
+            img
             {
-                align-content: center;
+                height: 800px;
+                width: 400px;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+                display: block;
             }
             
+            
+            
+            .fullWidth
+            {
+                width:100% !important;
+                background-color: slateblue;
+            }
+            
+            .noPadding
+            {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                padding-top: 0;
+            }
+           
+            .noMargin
+            {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                margin-top: 0 !important;
+                margin-bottom: 0 !important;
+            }
         </style>
         
         <!--- basic page needs
@@ -61,6 +89,15 @@
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     
     <body>
@@ -100,13 +137,14 @@
         </nav> <!-- end header__nav-wrap -->
 
     </header> <!-- s-header -->
-        <br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
+        <br><br><br><br>
+        <div class="container fullWidth noPadding">
+            <div class="row fullWidth">
+                <div class="col-lg-2">
+                    
                     <div class="vertical-menu">
                     <a href="#" class="active">Home</a>
-                    <a href="images/sample_file.PDF" target="_blank">Open PDF</a>
+                    <a href="images/sample_file.PDF">Open PDF</a>
                     <a href="#">Topic 2</a>
                     <a href="#">Topic 3</a>
                     <a href="#">Topic 5</a>
@@ -116,8 +154,10 @@
                     <a href="#">Topic 9</a>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <h2>This is col lg 10</h2>
+                <br><br>
+                
+                <div class="col-lg-10">
+                    <img src="images/window.jpg">
                 </div>
             </div>
         </div>
