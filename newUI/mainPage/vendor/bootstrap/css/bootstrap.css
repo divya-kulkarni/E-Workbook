@@ -5318,7 +5318,7 @@ input[type="button"].btn-block {
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
-  opacity: .5;
+  opacity: .3;
 }
 
 .close:not(:disabled):not(.disabled) {
@@ -5412,6 +5412,7 @@ button.close {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+    color:black;
 }
 
 .modal-backdrop {
@@ -5471,6 +5472,7 @@ button.close {
   justify-content: flex-end;
   padding: 1rem;
   border-top: 1px solid #e9ecef;
+    color:black;
 }
 
 .modal-footer > :not(:first-child) {
@@ -5507,7 +5509,7 @@ button.close {
 
 @media (min-width: 992px) {
   .modal-lg {
-    max-width: 800px;
+    width: 800px;
   }
 }
 
